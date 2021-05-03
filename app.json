@@ -1,46 +1,26 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/img/img",
-    "pages/user/user",
-    "pages/search/search",
-    "pages/logs/logs"
+    "pages/category/category",
+    "pages/goods_list/goods_list",
+    "pages/good_detail/good_detail",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index"
   ],
   "window":{
     "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "微信小程序",
+    "navigationBarTitleText": "微信小商城",
     "navigationBarTextStyle":"black",
     "enablePullDownRefresh": true
   },
   "style": "v2",
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页",
-        "iconPath": "icon/home.png",
-        "selectedIconPath": "icon/home-fill.png"
-      },
-      {
-        "pagePath": "pages/img/img",
-        "text": "图片",
-        "iconPath": "icon/pic.png",
-        "selectedIconPath": "icon/pic-fill.png"
-      },
-      {
-        "pagePath": "pages/user/user",
-        "text": "我的",
-        "iconPath": "icon/account.png",
-        "selectedIconPath": "icon/account-fill.png"
-      },
-      {
-        "pagePath": "pages/search/search",
-        "text": "查找",
-        "iconPath": "icon/search.png",
-        "selectedIconPath": "icon/viewlarger.png"
-      }
-    ]
-  },
   "sitemapLocation": "sitemap.json"
 }
