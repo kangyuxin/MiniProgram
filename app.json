@@ -15,18 +15,17 @@
     "pages/pay/index"
   ],
   "window":{
-    "backgroundTextStyle":"dark",
-    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450",
     "navigationBarTitleText": "微信小商城",
-    "navigationBarTextStyle":"black",
-    "enablePullDownRefresh": true
+    "navigationBarTextStyle":"white"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "color": "",
-    "selectedColor": "",
-    "backgroundColor": "",
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
     "position": "bottom",
     "borderStyle": "black",
     "list": [
